@@ -74,7 +74,7 @@ SparseX={'1','mcp'};
 SmoothA={'0','1'};
 flag.Sum2One=0;  flag.SparseX=SparseX{2};  flag.SparseA=SmoothA{1};  flag.p=p{2};
 Time.CSD_BTF=tic;
-    [CSD_BTF, par] = CSD_BTF_Synthesized(data, par, flag);
+    [CSD_BTF, par] = HSRSV_Synthesized(data, par, flag);
 Time.CSD_BTF=toc(Time.CSD_BTF);
 
 [Eval.PSNR, Eval.RMSE, Eval.ERGAS, Eval.SAM, Eval.UIQI, Eval.SSIM, ...
