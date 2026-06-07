@@ -64,9 +64,9 @@ data.M(data.M < 0) = 0;
 disp('HR-MSI generated.');
 par.sf=sf;  par.shift=shift;  
 
-%%  CSD-BTF
+%%  HSRSV
 clearvars -except par data flag Tab SNRm SNRh kernel_type sigmah sigmam szF;
-fprintf('==================================== CSD-BTF ==================================== \n');
+fprintf('==================================== HSRSV ==================================== \n');
 par.K=5;        
 par.iter=200;   
 p={1/2,2/3};
